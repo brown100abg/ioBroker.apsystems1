@@ -38,7 +38,17 @@ class Apsystems1 extends utils.Adapter {
         this.setState('info.connection', false, true);
 
         // create datapoints
-     
+        await this.setObjectNotExistsAsync('data.power.current', {
+            type: 'state',
+            common: {
+                name: 'data.power.current',
+                type: 'float',
+                role: 'indicator',
+                read: true,
+                write: true,
+            },
+            native: {},
+        });
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
