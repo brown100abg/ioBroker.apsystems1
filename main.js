@@ -37,6 +37,9 @@ class Apsystems1 extends utils.Adapter {
         // Reset the connection indicator during startup
         this.setState('info.connection', false, true);
 
+        // create datapoints
+     
+
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
         this.log.info('config host: ' + this.config.host + ':' + this.config.port);
