@@ -45,10 +45,24 @@ class Apsystems1 extends utils.Adapter {
                 type: 'number',
                 role: 'indicator',
                 read: true,
+                write: false,
+            },
+            native: {},
+        });
+        this.setState('data.power.current', 0, true);
+
+        await this.setObjectNotExistsAsync('data.power.max', {
+            type: 'state',
+            common: {
+                name: 'data.power.max',
+                type: 'number',
+                role: 'indicator',
+                read: true,
                 write: true,
             },
             native: {},
         });
+        this.setState('data.power.max', 0, true);
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
