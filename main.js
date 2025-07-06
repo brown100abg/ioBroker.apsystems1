@@ -42,7 +42,7 @@ class Apsystems1 extends utils.Adapter {
             type: 'state',
             common: {
                 name: 'data.power.current',
-                type: 'float',
+                type: 'flonumberat',
                 role: 'indicator',
                 read: true,
                 write: true,
