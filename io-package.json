@@ -1,0 +1,111 @@
+{
+    "common": {
+        "name": "apsystems1",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "APSystems-EZ1-M",
+            "de": "APSystems-EZ1-M",
+            "ru": "APSystems-EZ1-M",
+            "pt": "APSystems-EZ1-M",
+            "nl": "APSystems-EZ1-M",
+            "fr": "APSystems-EZ1-M",
+            "it": "APSystems-EZ1-M",
+            "es": "APSystems-EZ1-M",
+            "pl": "APSystems-EZ1-M",
+            "uk": "APSystems-EZ1-M",
+            "zh-cn": "APSystems-EZ1-M"
+        },
+        "desc": {
+            "en": "apsystems1",
+            "de": "apsystems1",
+            "ru": "apsystems1",
+            "pt": "apsystems1",
+            "nl": "apsystems1",
+            "fr": "apsystems1",
+            "it": "apsystems1",
+            "es": "apsystems1",
+            "pl": "apsystems1",
+            "uk": "apsystems1",
+            "zh-cn": "apsystems1"
+        },
+        "authors": [
+            "brown100abg <andreas-braeunig@gmx.de>"
+        ],
+        "keywords": [
+            "APSystems",
+            "IoT",
+            "solar"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "apsystems1.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/brown100abg/ioBroker.apsystems1/main/admin/apsystems1.png",
+        "readme": "https://github.com/brown100abg/ioBroker.apsystems1/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "energy",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "materialize"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": "7.0.23"
+            }
+        ]
+    },
+    "native": {
+        "host": ""
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}

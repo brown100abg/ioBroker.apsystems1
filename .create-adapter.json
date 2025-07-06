@@ -1,0 +1,45 @@
+{
+    "expert": "yes",
+    "cli": false,
+    "adapterName": "apsystems1",
+    "title": "APSystems-EZ1-M",
+    "keywords": [
+        "APSystems",
+        "IoT",
+        "solar"
+    ],
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [],
+    "type": "energy",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "poll",
+    "connectionIndicator": "yes",
+    "adapterSettings": [
+        {
+            "key": "host",
+            "inputType": "text",
+            "defaultValue": ""
+        }
+    ],
+    "language": "JavaScript",
+    "nodeVersion": "20",
+    "adminUi": "html",
+    "releaseScript": "no",
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "tools": [],
+    "authorName": "brown100abg",
+    "authorGithub": "brown100abg",
+    "authorEmail": "andreas-braeunig@gmx.de",
+    "gitRemoteProtocol": "HTTPS",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "i18n": "words.js",
+    "description": "",
+    "contributors": "",
+    "target": "github",
+    "creatorVersion": "2.6.5"
+}
