@@ -112,6 +112,9 @@ class Apsystems1 extends utils.Adapter {
 
         result = await this.checkGroupAsync('admin', 'admin');
         this.log.info('check group user admin group admin: ' + result);
+
+        // Set the connection indicator after startup
+        this.setState('info.connection', true, true);
     }
 
     /**
