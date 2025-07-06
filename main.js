@@ -33,7 +33,7 @@ class Apsystems1 extends utils.Adapter {
      */
     async onReady() {
         // Initialize your adapter here
-
+        this.log.info('das ist ein Test');
         // Reset the connection indicator during startup
         this.setState('info.connection', false, true);
 
