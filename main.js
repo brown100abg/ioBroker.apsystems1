@@ -36,6 +36,7 @@ class Apsystems1 extends utils.Adapter {
         this.log.info('das ist ein Test');
         // Reset the connection indicator during startup
         this.setState('info.connection', false, true);
+        this.setState('info.connection', true, true);
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
