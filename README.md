@@ -12,7 +12,7 @@
 
 ## apsystems1 adapter for ioBroker
 
-Describe your project here
+This is a test project!
 
 ## Developer manual
 This section is intended for the developer. It can be deleted later.
