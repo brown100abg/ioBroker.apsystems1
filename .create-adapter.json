@@ -22,6 +22,11 @@
             "key": "host",
             "inputType": "text",
             "defaultValue": ""
+        },
+        {
+            "key": "port",
+            "inputType": "text",
+            "defaultValue": "8050"
         }
     ],
     "language": "JavaScript",

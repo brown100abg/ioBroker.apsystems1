@@ -18,16 +18,16 @@ systemDictionary = {
         'zh-cn': 'apsystems1的适配器设置'
     },
     'host': {
-        'en': 'host',
-        'de': 'host',
-        'ru': 'host',
-        'pt': 'host',
-        'nl': 'host',
-        'fr': 'host',
-        'it': 'host',
-        'es': 'host',
-        'pl': 'host',
-        'uk': 'host',
-        'zh-cn': 'host'
+        'en': 'host / port',
+        'de': 'host / port',
+        'ru': 'host / port',
+        'pt': 'host / port',
+        'nl': 'host / port',
+        'fr': 'host / port',
+        'it': 'host / port',
+        'es': 'host / port',
+        'pl': 'host / port',
+        'uk': 'host / port',
+        'zh-cn': 'host / port'
     }
 };

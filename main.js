@@ -33,14 +33,13 @@ class Apsystems1 extends utils.Adapter {
      */
     async onReady() {
         // Initialize your adapter here
-        this.log.info('das ist ein Test');
+        
         // Reset the connection indicator during startup
         this.setState('info.connection', false, true);
-        this.setState('info.connection', true, true);
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
-        this.log.info('config host: ' + this.config.host);
+        this.log.info('config host: ' + this.config.host + ':' + this.config.port);
 
         /*
         For every state in the system there has to be also an object of type state
